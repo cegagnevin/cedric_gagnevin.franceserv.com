@@ -1,0 +1,124 @@
+.obligatoire
+{
+	font-weight: bold;
+	color: red;
+}
+
+.ok
+{
+	color: green;
+	text-align:center;
+	font-weight:bold;
+}
+
+.centrer
+{
+	text-align: center;
+}
+
+#bloc_principal label
+{
+	margin-right: 40px;
+	font-weight: bold;
+}
+
+#bloc_principal label[for=code]
+{
+	font-weight: normal;
+	margin: 0px;
+}
+
+#formulaire_de_contact
+{
+	margin: auto;
+	width: 500px;
+	-moz-box-shadow: 1px 1px 40px #d3e1bd inset, 1px 1px 1px rgba(255,255,255,0.4), 2px 2px 2px lightgrey;
+	box-shadow: 1px 1px 40px #d3e1bd inset, 1px 1px 1px rgba(255,255,255,0.4), 2px 2px 2px lightgrey;
+	padding: 25px;
+	border-radius: 10px;
+}
+
+#bloc_principal h1
+{
+	font-size: 2em;
+	text-align: center;
+	text-shadow: 0.1em 0em 0.1em lightblue;
+}
+
+#bloc_principal h3
+{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.paddingBottom40
+{
+	padding-bottom: 40px;
+}
+
+#buttons
+{
+	    text-align:center;
+}
+
+input[type=submit],input[type=reset] 
+{
+	margin-top: 30px;
+	font-weight: bold;
+    font-family: Calibri,sans-serif;
+    font-size:1em;
+    padding: 5px; 
+    color:#000;
+    background:#444;
+    background:-moz-linear-gradient(top,#555,#2C2C2C);
+    background:-webkit-gradient(linear, left top, left bottom, from(#555), to(#2C2C2C));
+	-webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    text-shadow:0px 1px 0px rgba(255,255,255,0.2);
+	-webkit-box-shadow:0 0 5px rgba(0,0,0,0.5),
+                       0 -1px 0 rgba(255,255,255,0.4);
+     -moz-box-shadow:0 0 5px rgba(0,0,0,0.5),
+                     0 -1px 0 rgba(255,255,255,0.4);
+     box-shadow:0 0 5px rgba(0,0,0,0.5),
+                0 -1px 0 rgba(255,255,255,0.4);
+
+}
+
+input[type=submit]:hover,input[type=reset]:hover
+{
+    color:#222;
+    background:#555;
+    background:-moz-linear-gradient( top, #777, #333);
+    background:-webkit-gradient( linear, left top, left bottom, from(#777), to(#333));
+}
+
+input[type=submit]:active,input[type=reset]:active
+{
+    color:#000;
+    background:#444;
+    background:-moz-linear-gradient( top, #555, #2C2C2C);
+    background:-webkit-gradient( linear, left top, left bottom, from(#555), to(#2C2C2C));
+    -webkit-box-shadow:1px 1px 10px black inset, 0 1px 0 rgba(255,255,255,0.4);
+    -moz-box-shadow:1px 1px 10px black inset, 0 1px 0 rgba(255,255,255,0.4);
+    box-shadow:1px 1px 10px black inset, 0 1px 0 rgba(255,255,255,0.4);
+}
+
+#captcha
+{
+	text-align: center;
+	padding-top: 15px;
+}
+
+#refresh
+{
+	position: relative;
+	bottom: 13px;
+	cursor: pointer;
+}
+
+#code, label[for=code]
+{
+	position: relative;
+	right: 10px;
+}

@@ -1,0 +1,128 @@
+﻿h1
+{
+	margin: 0px;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #520022;
+	text-shadow:0px 0.5px 0px darkgrey;
+	padding-bottom: 10px;
+}
+
+/* administration.php */
+
+#choix_administration img
+{
+	height: 80px;
+}
+
+#choix_administration td
+{
+	vertical-align: top;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#choix_administration td p, #choix_administration td ul
+{
+	text-align: left;
+}
+
+#choix_administration a
+{
+	text-decoration: none;
+	color: black;
+}
+
+#choix_administration a:hover
+{
+	color: #434343;
+}
+
+#choix_administration ul 
+{
+	list-style-type: circle;
+}
+/*-------------- fin administration.php ---------------- */
+
+/*-------------- statistiques.php ---------------------- */
+
+#statistiques
+{
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+#statistiques .tab_header
+{
+	background: #c00600;
+	background:-webkit-gradient(linear, left top, left bottom, from(#c00600), to(#dc0700)); /* pour Chrome 10+ et Safari 5.1+ */
+	background:-moz-linear-gradient(top,#c00600,#dc0700); /* pour Firefox 11+ */
+	background:-ms-linear-gradient(top,#c00600,#dc0700); /* pour pour IE 10+ */
+	background:-o-linear-gradient(top,#c00600,#dc0700); /* pour Opera 11.10+ */
+	background:linear-gradient(top,#c00600,#dc0700); /* "vous devez toujours mettre la propriété non préfixée en dernier dans le seul but d’assurer la stabilité de votre design dans les années futures" */	
+	font-weight: bold;
+	font-size: 1.05em;
+	text-align: center;
+}
+
+#statistiques td
+{
+	padding: 5px;
+	border: 1px lightgrey solid;
+
+}
+
+#param_tab
+{
+	margin: 0 auto;
+	width: 95%;
+}
+
+#param_tab td
+{
+	vertical-align: top;
+}
+
+#pagination
+{
+	text-align: center;
+	margin: auto;
+}
+
+/* Style des numéros de page */
+#pagination input
+{
+	background-color: #fdf4f4;
+	border: 2px solid #c40500;
+	color: black;
+	border-radius: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
+	cursor: pointer;
+}
+
+#pagination input:hover
+{
+	background-color: lightgrey;
+}
+
+.nb_resultats { text-align: center; color: grey; font-style: italic; }
+.align_right { text-align: right;}
+.align_left { text-align: left;}
+.centrer { text-align: center;}
+.dark_line { background-color: #e7e7e7; }
+.light_line { background-color: #f6f6f6; }
+.gras { font-weight: bold; }
+.page_courante { font-weight: bold; background-color: #d9d9d9; }
+
+
+
+
+
+
+
+
+
+
+

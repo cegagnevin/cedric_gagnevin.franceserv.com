@@ -1,0 +1,186 @@
+body
+{
+	padding: 0px;
+	margin: 0px;
+	background-color: #fafafa;
+}
+
+#bloc_principal
+{
+	background-color: white;
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	width: 400px;
+	height: 250px;
+	margin-left: -200px; /* Cette valeur doit être la moitié négative de la valeur du width */
+	margin-top: -125px; /* Cette valeur doit être la moitié négative de la valeur du height */
+	border-top-left-radius: 60px;
+	border-bottom-right-radius: 60px;
+	border: red solid 2px;
+	
+	-webkit-box-shadow:1px 1px 10px darkgrey inset, 0 1px 0 rgba(255,255,255,0.4);
+	-moz-box-shadow:1px 1px 10px darkgrey inset, 0 1px 0 rgba(255,255,255,0.4);
+	-ms-box-shadow:1px 1px 10px darkgrey inset, 0 1px 0 rgba(255,255,255,0.4);
+	-o-box-shadow:1px 1px 10px darkgrey inset, 0 1px 0 rgba(255,255,255,0.4);
+	box-shadow:1px 1px 10px black darkgrey inset, 0 1px 0 rgba(255,255,255,0.4);
+}
+
+
+
+#authentification
+{
+	margin: auto;
+}
+
+#authentification td
+{
+	text-align: center;
+	padding: 5px;
+}
+
+#authentification h1
+{
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 0.05em 0 0.03em darkgrey;
+	margin-bottom: 20px;
+}
+
+#authentification input[type=submit]
+{
+	text-decoration: none;
+	font-size:1.1em;
+	margin-top: 20px;
+    height:35px;
+    padding:5px; 
+    text-align: center;
+    color: #181818;
+    background: #d00700;
+	background:-webkit-gradient(linear, left top, left bottom, from(#d00700), to(#ff2929)); /* pour Chrome 10+ et Safari 5.1+ */
+	background:-moz-linear-gradient(top,#d00700,#ff2929); /* pour Firefox 11+ */
+	background:-ms-linear-gradient(top,#d00700,#ff2929); /* pour pour IE 10+ */
+	background:-o-linear-gradient(top,#d00700,#ff2929); /* pour Opera 11.10+ */
+	background:linear-gradient(top,#d00700,#ff2929); /* "vous devez toujours mettre la propriété non préfixée en dernier dans le seul but d’assurer la stabilité de votre design dans les années futures" */	
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+	
+	font-weight: bold;
+	text-shadow:0px 0.5px 0px darkgrey;
+	-webkit-box-shadow:0 0 5px rgba(0,0,0,0.5),
+                       0 -1px 0 rgba(255,255,255,0.4);
+	-moz-box-shadow:0 0 5px rgba(0,0,0,0.5),
+					0 -1px 0 rgba(255,255,255,0.4);
+	-ms-box-shadow:0 0 5px rgba(0,0,0,0.5),
+                       0 -1px 0 rgba(255,255,255,0.4);
+	-o-box-shadow:0 0 5px rgba(0,0,0,0.5),
+                       0 -1px 0 rgba(255,255,255,0.4);
+	box-shadow:0 0 5px rgba(0,0,0,0.5),
+			   0 -1px 0 rgba(255,255,255,0.4);
+	cursor: pointer;
+}
+
+#authentification input[type=submit]:hover
+{
+    color: #313131;
+    background: #ff2929;
+	background:-webkit-gradient(linear, left top, left bottom, from(#ff2929), to(#d00700)); /* pour Chrome 10+ et Safari 5.1+ */
+	background:-moz-linear-gradient(top,#ff2929,#d00700); /* pour Firefox 3.6+ */
+	background:-ms-linear-gradient(top,#ff2929,#d00700); /* pour pour IE 10+ */
+	background:-o-linear-gradient(top,#ff2929,#d00700); /* pour Opera 11.10+ */
+	background:linear-gradient(top,#ff2929,#d00700); /* "vous devez toujours mettre la propriété non préfixée en dernier dans le seul but d’assurer la stabilité de votre design dans les années futures" */	
+}
+
+#authentification input[type=submit]:active
+{
+    color: black;
+    background: #2f2f2f;
+	background:-webkit-gradient(linear, left top, left bottom, from(#2f2f2f), to(#585858)); /* pour Chrome 10+ et Safari 5.1+ */
+	background:-moz-linear-gradient(top,#2f2f2f,#585858); /* pour Firefox 3.6+ */
+	background:-ms-linear-gradient(top,#2f2f2f,#585858); /* pour pour IE 10+ */
+	background:-o-linear-gradient(top,#2f2f2f,#585858); /* pour Opera 11.10+ */
+	background:linear-gradient(top,#2f2f2f,#585858); /* "vous devez toujours mettre la propriété non préfixée en dernier dans le seul but d’assurer la stabilité de votre design dans les années futures" */	
+
+	-webkit-box-shadow:1px 1px 10px black inset, 0 1px 0 rgba(255,255,255,0.4);
+	-moz-box-shadow:1px 1px 10px black inset, 0 1px 0 rgba(255,255,255,0.4);
+	-ms-box-shadow:1px 1px 10px black inset, 0 1px 0 rgba(255,255,255,0.4);
+	-o-box-shadow:1px 1px 10px black inset, 0 1px 0 rgba(255,255,255,0.4);
+	box-shadow:1px 1px 10px black black inset, 0 1px 0 rgba(255,255,255,0.4);
+}
+
+
+.goSite
+{
+	position: fixed;
+	left: 40px;
+	top: 30px;
+	text-decoration: none;
+	font-size:1.1em;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 5px;
+	padding-right: 5px;
+    text-align: center;
+    color: #009fc8;
+    background: #0e1111;
+	background:-webkit-gradient(linear, left top, left bottom, from(#0e1111), to(#303939)); /* pour Chrome 10+ et Safari 5.1+ */
+	background:-moz-linear-gradient(top,#0e1111,#303939); /* pour Firefox 11+ */
+	background:-ms-linear-gradient(top,#0e1111,#303939); /* pour pour IE 10+ */
+	background:-o-linear-gradient(top,#0e1111,#303939); /* pour Opera 11.10+ */
+	background:linear-gradient(top,#0e1111,#303939); /* "vous devez toujours mettre la propriété non préfixée en dernier dans le seul but d’assurer la stabilité de votre design dans les années futures" */	
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+	
+	font-weight: bold;
+	text-shadow:0px 1px 0.5px white;
+	-webkit-box-shadow:0 0 5px rgba(0,0,0,0.5),
+                       0 -1px 0 rgba(255,255,255,0.4);
+	-moz-box-shadow:0 0 5px rgba(0,0,0,0.5),
+					0 -1px 0 rgba(255,255,255,0.4);
+	-ms-box-shadow:0 0 5px rgba(0,0,0,0.5),
+                       0 -1px 0 rgba(255,255,255,0.4);
+	-o-box-shadow:0 0 5px rgba(0,0,0,0.5),
+                       0 -1px 0 rgba(255,255,255,0.4);
+	box-shadow:0 0 5px rgba(0,0,0,0.5),
+			   0 -1px 0 rgba(255,255,255,0.4);
+	cursor: pointer;
+}
+
+.goSite:hover
+{
+    color: #01bae8;
+    background: #303939;
+	background:-webkit-gradient(linear, left top, left bottom, from(#303939), to(#0e1111)); /* pour Chrome 10+ et Safari 5.1+ */
+	background:-moz-linear-gradient(top,#303939,#0e1111); /* pour Firefox 3.6+ */
+	background:-ms-linear-gradient(top,#303939,#0e1111); /* pour pour IE 10+ */
+	background:-o-linear-gradient(top,#303939,#0e1111); /* pour Opera 11.10+ */
+	background:linear-gradient(top,#303939,#0e1111); /* "vous devez toujours mettre la propriété non préfixée en dernier dans le seul but d’assurer la stabilité de votre design dans les années futures" */	
+}
+
+.goSite:active
+{
+    color: #01bae8;
+    background: #404d4d;
+	background:-webkit-gradient(linear, left top, left bottom, from(#2a3333), to(#404d4d)); /* pour Chrome 10+ et Safari 5.1+ */
+	background:-moz-linear-gradient(top,#2a3333,#404d4d); /* pour Firefox 3.6+ */
+	background:-ms-linear-gradient(top,#2a3333,#404d4d); /* pour pour IE 10+ */
+	background:-o-linear-gradient(top,#2a3333,#404d4d); /* pour Opera 11.10+ */
+	background:linear-gradient(top,#2a3333,#404d4d); /* "vous devez toujours mettre la propriété non préfixée en dernier dans le seul but d’assurer la stabilité de votre design dans les années futures" */	
+
+	-webkit-box-shadow:1px 1px 10px #171c1c inset, 0 1px 0 rgba(255,255,255,0.4);
+	-moz-box-shadow:1px 1px 10px #171c1c inset, 0 1px 0 rgba(255,255,255,0.4);
+	-ms-box-shadow:1px 1px 10px #171c1c inset, 0 1px 0 rgba(255,255,255,0.4);
+	-o-box-shadow:1px 1px 10px #171c1c inset, 0 1px 0 rgba(255,255,255,0.4);
+	box-shadow:1px 1px 10px black #171c1c, 0 1px 0 rgba(255,255,255,0.4);
+}
+
+
+
+
+

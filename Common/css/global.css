@@ -1,0 +1,109 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{font-family:Calibri;margin:0}
+.centrer{text-align:center}
+body{font-family:Calibri,sans-serif;margin:0;padding:0}
+#header{background-image:url(../img/header.png);background-repeat:repeat-x;height:123px;padding-top:5px;padding-bottom:15px;margin:0}
+#body{background-image:url(../img/body.png);background-repeat:repeat;padding-top:10px;margin:0}
+#footer{background-image:url(../img/footer.png);background-repeat:repeat-x;height:215px;margin:-20px 0 0}
+#haut_page{width:1120px;height:120px;border-radius:3px;background-image:url(../img/banniere.png);margin:auto}
+#bloc_principal{width:1060px;min-height:300px;background-color:#FFF;border-radius:15px;-webkit-box-shadow:1px 1px 40px #b1b1b1 inset;-moz-box-shadow:1px 1px 40px #b1b1b1 inset;box-shadow:1px 1px 40px #b1b1b1 inset;margin:auto;padding:30px}
+#pied_page{width:1100px;color:#FFF;text-align:center;margin:auto;padding:60px 10px 0}
+.background-menu{width:1120px;position:relative;top:50px;height:50px;border-radius:3px;margin:0 auto}
+#nom{color:#b1de00;font-weight:700;font-size:2em;position:relative;top:15px;left:130px;width:250px;cursor:pointer}
+#haut_page a{text-decoration:none}
+#photo_Cédric{float:right;z-index:100;position:relative;bottom:50px;right:50px;border:#efffd3 solid 10px;border-radius:2px;height:160px}
+#ribbon{height:145px;position:relative;left:-4px;top:-99px;z-index:120px}
+#signature{font-weight:700;text-decoration:underline;padding:5px}
+#menu{z-index:80px;position:relative;bottom:149px;width:800px;margin:auto}
+#menu td{z-index:80px;background-image:url(../img/background-td-menu.png);opacity:0.8;height:40px;width:195px;line-height:1.9em;text-align:center;font-weight:700;font-size:1.3em;border-radius:2px;-moz-box-shadow:1px 1px 3px #000 inset}
+#menu a{width:100%;height:100%;color:#FFF;text-decoration:none;display:block;-moz-transition:all .3s linear}
+#menu a:hover{opacity:1;color:#aacd41}
+#menu td:hover{opacity:0.9}
+#footer table td{text-align:center;padding:0 7px}
+#footer table a{color:#D3D3D3;text-decoration:none}
+#footer table td:hover{font-weight:700;text-shadow:.1em 0 .1em #000}
+#footer table td:first-child{border-right:2px darkgrey solid}
+#footer img{border:none}
+.more{font-weight:700;text-shadow:1px 1px 2px darkgrey;color:#abd200;font-size:1.2em;float:right;text-decoration:none}
+#img_contact{position:relative;left:60px;text-align:center;margin:auto}
+#activites td{text-align:center;padding:15px}
+#activites td p{text-align:justify}
+#activites img{height:90px;margin-bottom:10px}
+#FB{float:right;margin:10px}
+#RSS{float:right;position:relative;left:30px;top:-90px;z-index:200;border:none;text-decoration:none;margin:10px}
+#RSS:hover{transition:all 2s linear;position:relative;left:40px}
+li{position:relative;left:40px;list-style-image:url(../img/puce_cercle.png)}
+.atome_h1{font-size:2.2em;text-shadow:1px 1px grey;color:#9f99b5;text-align:center;margin-top:20px;margin-bottom:20px}
+.atome_h2{font-size:1.8em;text-shadow:1px 1px grey;color:#9f99b5;margin-top:20px;margin-bottom:10px}
+.blog_h1{font-size:2.2em;text-shadow:1px 1px grey;color:#ddd;text-align:center;margin-top:20px;margin-bottom:20px}
+.blog_h2{font-size:1.8em;text-shadow:1px 1px grey;color:#ddd;margin-top:20px;margin-bottom:10px}
+.location_h1{font-size:2.2em;text-shadow:1px 1px grey;color:#215375;text-align:center;margin-top:20px;margin-bottom:20px}
+.location_h2{font-size:1.8em;text-shadow:1px 1px grey;color:#215375;margin-top:20px;margin-bottom:10px}
+.c2n_h1{font-size:2.2em;text-shadow:1px 1px grey;color:#a40017;text-align:center;margin-top:20px;margin-bottom:20px}
+.c2n_h2{font-size:1.8em;text-shadow:1px 1px grey;color:#a40017;margin-top:20px;margin-bottom:10px}
+.formerstudent_h1{font-size:2.2em;text-shadow:1px 1px grey;color:#7cc94d;text-align:center;margin-top:20px;margin-bottom:20px}
+.formerstudent_h2{font-size:1.8em;text-shadow:1px 1px grey;color:#7cc94d;margin-top:20px;margin-bottom:10px}
+.pml_site_h1{font-size:2.2em;text-shadow:1px 1px grey;color:#ff9523;text-align:center;margin-top:20px;margin-bottom:20px}
+.pml_site_h2{font-size:1.8em;text-shadow:1px 1px grey;color:#ff9523;margin-top:20px;margin-bottom:10px}
+.pml_h1{font-size:2.2em;text-shadow:1px 1px grey;color:#000733;text-align:center;margin-top:20px;margin-bottom:20px}
+.pml_h2{font-size:1.8em;text-shadow:1px 1px grey;color:#000733;margin-top:20px;margin-bottom:10px}
+.siteperso_h1{font-size:2.2em;text-shadow:1px 1px grey;color:#7bc84a;text-align:center;margin-top:20px;margin-bottom:20px}
+.siteperso_h2{font-size:1.8em;text-shadow:1px 1px grey;color:#02a1cc;margin-top:20px;margin-bottom:10px}
+.siterss_h1{font-size:2.2em;text-shadow:1px 1px grey;color:#65b6c7;text-align:center;margin-top:20px;margin-bottom:20px}
+.siterss_h2{font-size:1.8em;text-shadow:1px 1px grey;color:#c6e1ff;margin-top:20px;margin-bottom:10px}
+.inventaire_h1{font-size:2.2em;text-shadow:1px 1px grey;color:#aac627;text-align:center;margin-top:20px;margin-bottom:20px}
+.inventaire_h2{font-size:1.8em;text-shadow:1px 1px grey;color:#61caff;margin-top:20px;margin-bottom:10px}
+.expeditions_h1{font-size:2.2em;text-shadow:1px 1px grey;color:#e7f800;text-align:center;margin-top:20px;margin-bottom:20px}
+.expeditions_h2{font-size:1.8em;text-shadow:1px 1px grey;color:#f3ff4b;margin-top:20px;margin-bottom:10px}
+#mention{position:relative;top:-20px}
+#vignettes{width:100%;background:url(../img/courbes.png) repeat-y center;margin:auto}
+#vignettes td{padding:10px}
+#vignettes .gauche{float:left}
+#vignettes .droite{float:right}
+.atome_lien{text-shadow:1px 1px 2px grey;color:#b4aabf}
+.atome_article{background:linear-gradient(#b4aabf,#cdc7d4);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b4aabf',endColorstr='#cdc7d4',GradientType=0)}
+.location_lien{text-shadow:1px 1px 2px grey;color:#5598c5}
+.location_article{background:linear-gradient(#215172,#2c6f9b);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#215172',endColorstr='#2c6f9b',GradientType=0)}
+.c2n_lien{text-shadow:1px 1px 2px grey;color:#810013}
+.c2n_article{background:linear-gradient(#810013,#c5001d);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#810013',endColorstr='#c5001d',GradientType=0)}
+.blog_lien{text-shadow:1px 1px 2px grey;color:#ddd}
+.blog_article{background:linear-gradient(#dddddd,#f2f2f2);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dddddd',endColorstr='#f2f2f2',GradientType=0)}
+.former_article{background:linear-gradient(#7bc84a,#a9db8a);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7bc84a',endColorstr='#a9db8a',GradientType=0)}
+.pml_lien{text-shadow:1px 1px 2px grey;color:#000733}
+.pml_article{background:linear-gradient(#000733,#ff9523);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000733',endColorstr='#ff9523',GradientType=0)}
+.pml_site_lien{text-shadow:1px 1px 2px grey;color:#ff9523}
+.pml_site_article{background:linear-gradient(#ff9523,#000733);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9523',endColorstr='#000733',GradientType=0)}
+.siteperso_article{background:linear-gradient(#02a1cc,#daf1ff);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#02a1cc',endColorstr='#daf1ff',GradientType=0)}
+.siterss_lien{text-shadow:1px 1px 2px grey;color:#109297}
+.siterss_article{background:linear-gradient(#67b8c7,#c6e1ff);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#67b8c7',endColorstr='#c6e1ff',GradientType=0)}
+.expeditions_lien{text-shadow:1px 1px 2px grey;color:#ffe049}
+.inventaire_lien{text-shadow:1px 1px 2px grey;color:#aac627}
+#site_pml_avant,#site_pml_apres{border-collapse:collapse;margin:auto}
+#site_pml_avant caption,#site_pml_apres caption{font-weight:700;font-size:1.4em}
+#site_pml_avant td,#site_pml_apres td{padding:20px}
+#site_pml_avant td img,#site_pml_apres td img{-moz-box-shadow:4px 4px 8px #aaa;-webkit-box-shadow:4px 4px 8px #aaa;box-shadow:4px 4px 8px #aaa}
+#portfolio h1{font-size:2.3em;text-shadow:1px 1px #5fb9ff;color:#40434a;text-align:center;margin-bottom:40px}
+#portfolio h1 img{position:relative;top:15px}
+#portfolio .article{box-shadow:4px 4px 8px #aaa;padding-left:10px;padding-right:10px;padding-bottom:10px;border-radius:10px;width:400px;height:250px}
+#portfolio .article h2{color:#FFF;text-align:center;margin-bottom:5px;font-size:1.2em;font-weight:700;padding-top:5px;padding-bottom:5px}
+#portfolio .article h2 sup{color:red}
+#portfolio .article h3{color:#000;text-align:justify;font-weight:700}
+#portfolio .article div strong{font-weight:700;color:darkgrey}
+#portfolio .article div{background-color:#f6f6f6;border-radius:10px;height:200px;padding:7px 13px}
+.voir_fiche{font-weight:700;font-size:1.2em;float:right;text-decoration:none}
+.apercus td{padding-left:3px;padding-right:3px}
+#PDF{margin-top:50px;margin-bottom:50px;color:darkgrey;position:relative;left:800px;width:300px}
+#PDF img{position:relative;top:22px;height:70px;border:none}
+#PDF a{text-decoration:none;color:darkgrey}
+#bloc_principal #titre_cv{font-size:2px;border:10px solid #000;border-radius:2px;text-align:center;font-variant:small-caps;background-color:#f4f4ea;padding:5px}
+#bloc_principal dt{margin-top:40px;margin-bottom:20px;font-size:1.5em;background-color:#eeece0;text-shadow:.1em 0 .1em darkgrey;padding:2px}
+#bloc_principal dd{text-indent:40px}
+#bloc_principal dd>ul{text-indent:0}
+.grasSouligne{font-weight:700;text-decoration:underline}
+.back_portfolio{font-size:1.3em;text-shadow:1px 1px #5fb9ff;color:#40434a;text-align:center;text-decoration:none}
+.back_portfolio:hover{text-decoration:underline;cursor:pointer}
+.nonDispo{font-size:2em;text-align:center;color:#f5a700}
+.centrerBloc,#footer table,.apercus{margin:auto}
+.ongletCourant,.ongletCourant:hover{text-shadow:.1em 0 .1em #FFF;opacity:1}
+.more:hover,.voir_fiche:hover,#PDF a:hover{text-decoration:underline}
+.former_lien,.siteperso_lien{text-shadow:1px 1px 2px grey;color:#7bc84a}
+.expeditions_article,.inventaire_article{background:linear-gradient(#f2da00,#fdef00);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2da00',endColorstr='#fdef00',GradientType=0)}

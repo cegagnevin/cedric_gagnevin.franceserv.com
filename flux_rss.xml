@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="iso-8859-1" ?>
+<rss version="2.0">
+	<channel>
+		<title>Portfolio de Cédric GAGNEVIN</title>
+		<description>(11) Réalisations de Cédric GAGNEVIN, Développeur Web à Clermont-Ferrand</description>
+		<lastBuildDate>Sat, 18 Aug 2012 19:33:00</lastBuildDate>
+		<link>http://www.cedric_gagnevin.franceserv.com/flux_rss.xml</link>
+		<item>
+			<title>Module INVENTAIRE</title>
+			<description>Module répertoriant tout le matériel disponible pour pouvoir le partager dans une société.</description>
+			<pubDate>Sat, 18 Aug 2012 19:33:00</pubDate>
+			<link>http://www.cedric_gagnevin.franceserv.com/Realisations/fiche_inventaire.php</link>
+		</item>			
+		<item>
+			<title>Module EXPEDITIONS</title>
+			<description>Module permettant de gérer l'envoi des colis, envoi d'emails, tracking...</description>
+			<pubDate>Sat, 18 Aug 2012 19:32:00</pubDate>
+			<link>http://www.cedric_gagnevin.franceserv.com/Realisations/fiche_expeditions.php</link>
+		</item>			
+		<item>
+			<title>PhpMyLab</title>
+			<description>Logiciel de gestion des congés, missions et plannings du personnel d'une société.</description>
+			<pubDate>Fri, 29 Jun 2012 22:56:00</pubDate>
+			<link>http://www.cedric_gagnevin.franceserv.com/Realisations/fiche_pml.php</link>
+		</item>		
+		<item>
+			<title>Site web de PhpMyLab</title>
+			<description>Site vitrine du logiciel open source PhpMyLab. Téléchargement, essai du logiciel...</description>
+			<pubDate>Fri, 29 Jun 2012 23:06:00</pubDate>
+			<link>http://www.cedric_gagnevin.franceserv.com/Realisations/fiche_pml_site.php</link>
+		</item>
+		<item>
+			<title>Mon site perso</title>
+			<description>Site personnel de Cédric GAGNEVIN, développeur web à Clermont-Ferrand.</description>
+			<pubDate>Fri, 29 Jun 2012 23:14:10</pubDate>
+			<link>http://www.cedric_gagnevin.franceserv.com/Realisations/fiche_siteperso.php</link>
+		</item>		
+		<item>
+			<title>Projet Atome</title>
+			<description>Application réalisée lors d'un projet tutoré en fin de 2ème année de DUT informatique.</description>
+			<pubDate>Fri, 29 Jun 2012 23:12:00</pubDate>
+			<link>http://www.cedric_gagnevin.franceserv.com/Realisations/fiche_atome.php</link>
+		</item>	
+		<item>
+			<title>Site de publication de news</title>
+			<description>Moteur de blog permettant à des auteurs d'écrire et publier des news.</description>
+			<pubDate>Fri, 29 Jun 2012 23:14:00</pubDate>
+			<link>http://www.cedric_gagnevin.franceserv.com/Realisations/fiche_blog.php</link>
+		</item>	
+		<item>
+			<title>Site de gestion de flux RSS</title>
+			<description>Site réalisé en JEE gérant des flux RSS. Visualisation, ajout, suppression de flux...</description>
+			<pubDate>Sat, 30 Jun 2012 16:05:00</pubDate>
+			<link>http://www.cedric_gagnevin.franceserv.com/Realisations/fiche_siterss.php</link>
+		</item>			
+		<item>
+			<title>Site de location d'appartements meublés</title>
+			<description>Site internet vitrine pour présenter des appartements meublés disponibles en location.</description>
+			<pubDate>Fri, 29 Jun 2012 23:13:00</pubDate>
+			<link>http://www.cedric_gagnevin.franceserv.com/Realisations/fiche_location.php</link>
+		</item>		
+		<item>
+			<title>Site dynamique d'un centre de loisirs</title>
+			<description>Site avec accès différents pour les visiteurs, les parents d'enfant et les animateurs.</description>
+			<pubDate>Fri, 29 Jun 2012 23:14:00</pubDate>
+			<link>http://www.cedric_gagnevin.franceserv.com/Realisations/fiche_c2n.php</link>
+		</item>		
+
+		<item>
+			<title>FormerStudent</title>
+			<description>Réseau social entre étudiants, partage de ses différentes expériences, conseils...</description>
+			<pubDate>Fri, 29 Jun 2012 23:16:00</pubDate>
+			<link>http://www.cedric_gagnevin.franceserv.com/Realisations/fiche_formerstudent.php</link>
+		</item>		
+	</channel>
+</rss>

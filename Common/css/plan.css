@@ -1,0 +1,63 @@
+#bloc_principal h1
+{
+	color: #a9cc42;
+	text-shadow: 0.07em 0em 0.02em black;
+	margin-left: 100px;
+}
+
+#plan
+{
+	margin-left: 60px;
+	margin-top: 30px;
+}
+
+#plan a
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	font-size: 1.2em;
+	line-height: 200%;	
+	margin-left: 100px;
+}
+
+#plan a:hover
+{
+	text-decoration: underline;
+}
+
+#plan section
+{
+	border-left: 1px solid lightgrey;
+	margin-left: 120px;
+}
+
+#plan section sup
+{
+	color: red;
+	font-weight: bold;
+}
+
+#plan section a 
+{
+	text-decoration: none;
+	color: #989898;
+	font-weight: normal;
+	font-size: 1.1em;
+	line-height: 150%;
+	margin-left: 0px;
+}
+
+#plan section li:last-child
+{
+	margin-bottom: 10px;
+}
+
+#plan section li
+{
+	list-style-type: none;
+}
+
+
+
+

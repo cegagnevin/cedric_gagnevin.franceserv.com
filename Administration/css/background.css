@@ -1,0 +1,110 @@
+body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+header
+{
+	background-image: url("../img/banniere.png");
+	height: 100px;
+	margin: 0px;
+}
+
+menu
+{
+	background: -moz-linear-gradient(#252523,#0b0b0b);
+	height: 40px;
+	margin: 0px;
+	text-align: center;
+	padding: 0px;
+}
+
+#menu_admin
+{
+	width: 900px;
+	background: -moz-linear-gradient(black,#1a1a1a);
+	margin: 0 auto;
+	height: 100%;
+}
+
+#menu_admin img
+{
+	cursor: pointer;
+}
+
+#menu_admin table 
+{
+	height: 100%;
+	border-collapse: collapse;
+	/*width: 100%;*/
+	margin: 0px;
+}
+
+#menu_admin table td
+{
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#body
+{
+	background: -moz-radial-gradient(center top, #cbcbcb 0%, #ffffff 100%);
+	margin: 0px;
+	padding: 0px;
+}
+
+#bloc_principal
+{
+	padding-top: 15px;
+	padding-bottom: 30px;
+	width: 900px;
+	background: white;
+	margin: 0 auto;
+	height: 100%;
+	border-left: ridge 3px grey;
+	border-right: groove 3px grey;
+}
+
+footer
+{
+	background: -moz-linear-gradient(#757575,#a4a4a4);
+	height: 60px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0px;
+}
+
+#pied_page
+{
+	width: 100%;
+	height: 80%;
+	text-align: center;
+}
+
+#pied_page a
+{
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+#pied_page a:hover
+{
+	text-decoration: underline;
+}
+
+.onglet_courant
+{
+	text-decoration: underline;
+}
+
+.item_menu:hover
+{
+	background: #2f2f2f;
+	cursor: pointer;
+}
